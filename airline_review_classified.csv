@@ -1,0 +1,501 @@
+,Sentiment,Risk,Urgency,Topic,Source Airport,Destination Airport,Carrier
+0,Positive,Low Risk,Non-Immediate,Good Service,Unknown,Unknown,Unknown
+1,Positive,Low Risk,Non-Immediate,Good Service,Heathrow,Austin,British Airways
+2,Positive,Low Risk,Non-Immediate,Good Service,Zurich Airport (ZRH),San Francisco Airport (SFO),British Airways (BA)
+3,Negative,Low Risk,Immediate,Refurbishing,London,Paris,Low-cost Carrier
+4,Positive,Low Risk,Non-Immediate,Good Service,JFK,LHR,Unknown
+5,Negative,Low Risk,Immediate,Poor Timing,London Heathrow,Cape Town,British Airways
+6,Positive,Low Risk,Non-Immediate,Good Service,London City,Florence,British Airways
+7,Negative,Low Risk,Immediate,Food Quality,Singapore,London Heathrow,British Airways
+8,Negative,Low Risk,Immediate,Poor Food Quality,Gatwick Airport,Anywhere,British Airways
+9,Negative,Low Risk,Non-Immediate,Comfort Issues,London,Vancouver,BA
+10,Negative,Moderate Risk,Non-Immediate,Uncomfortable Seating,City x,City y,Airline Name
+11,Negative,Low Risk,Immediate,Faulty Electricals,London,Mumbai,British Airways
+12,Positive,Low Risk,Non-Immediate,Good Service,Brussels,Shanghai,British Airways
+13,Positive,Low Risk,Non-Immediate,Good Service,LHR,IAD,A380.
+14,Neutral,Low Risk,Non-Immediate,In-flight Services,London Heathrow,Kalamata,British Airways
+15,Neutral,Low Risk,Non-Immediate,Inflight Service,City x,City y,British Airways
+16,Negative,Low Risk,Non-Immediate,Poor Quality,Glasgow,New York,British Airways
+17,Negative,Low Risk,Non-Immediate,Quality,London Heathrow (LHR),Washington,British Airways (BA)
+18,Negative,Low Risk,Non-Immediate,Seat Comfort,London Heathrow,Warsaw,British Airways
+19,Negative,Low Risk,Immediate,Legroom,Bucharest,London Heathrow,British Airways
+20,Negative,Low Risk,Immediate,Cleanliness,London Heathrow,Istanbul,British Airways
+21,Negative,High Risk,Non-Immediate,Uncomfortable Flight,Chicago,London,British Airways
+22,Answer: Positive,Low Risk,Non-Immediate,Good Service,Heathrow,Newark,British Airways
+23,Negative,Low Risk,Non-Immediate,Seat Comfort,Chicago,Chennai,London
+24,Positive,Low Risk,Non-Immediate,In-Flight Entertainment,Newcastle,Las Vegas,London
+25,,,,,,,
+26,Negative,Low Risk,Immediate,Poor Experience,Heathrow,Cairo,British Airways
+27,Negative,High Risk,Non-Immediate,Flight Delays,London Heathrow,Istanbul,Unknown
+28,Positive,Low Risk,Non-Immediate,Bad Service,London Heathrow,Bologna,British Airways
+29,Positive,Low Risk,Non-Immediate,Good Service,JFK,LHR,British Airways
+30,Positive,Low Risk,Non-Immediate,Good Service,Heathrow,Paris CDG,British Airways
+31,Negative,Low Risk,Non-Immediate,Customer Experience,City x,City y,British Airways
+32,Positive,Low Risk,Non-Immediate,Good Service,Airport A,Airport B,British Airways
+33,Positive,Low Risk,Non-Immediate,Comfort of Seats,NCL,LHR,BA
+34,Negative,High Risk,Immediate,Bad Service,N/A,N/A,N/A
+35,Negative,High Risk,Non-Immediate,Poor Leg Room,Airport x,Airport y,British Airways
+36,Positive,Low Risk,Non-Immediate,Good Service,London,Tokyo Narita,British Airways
+37,Positive,Low Risk,Non-Immediate,Good Service,Toronto,London,British Airways
+38,Negative,High Risk,Immediate,Bad Service,Nassau,Paris,British Airways
+39,Negative,Low Risk,Non-Immediate,Bad Service,Dubrovnik,Gatwick,British Airways
+40,Neutral,Low Risk,Non-Immediate,Aircraft Condition,London Heathrow (LHR),Las Vegas (LAS),British Airways (BA)
+41,Negative,Low Risk,Immediate,Problematic Seats,LGW,SZG,British Airways
+42,Negative,Medium Risk,Non-Immediate,Comfort Level,London,Bucharest,Unspecified
+43,Positive,Low Risk,Non-Immediate,Good Service,London,Gothenburg,British Airways
+44,Negative,Low Risk,Non-Immediate,Boarding Process,London Heathrow (LHR) Airport,T3 Airport,G-GATL (9f)
+45,Positive,Low Risk,Non-Immediate,Good Service,London,Valencia,British Airways.
+46,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Belfast,British Airways
+47,Positive,Low Risk,Non-Immediate,Good Service,London/Heathrow Terminal 5,Unknown,British Airways
+48,Positive,Low Risk,Non-Immediate,Good Service,Heathrow,Bologna,BA
+49,Negative,Low Risk,Immediate,Customer Service,London,Los Angeles,British Airways
+50,Positive,Low Risk,Non-Immediate,Meal Quality,Source Airport Unknown,Destination Airport Unknown,Carrier Unknown
+51,Negative,Low Risk,Non-Immediate,Uncomfortable Seating,LAX,LHR,A380
+52,Negative,High Risk,Immediate,Food Quality,City x,City y,British Airways
+53,Positive,Low Risk,Non-Immediate,Good Service,London City,Geneva,Unspecified
+54,Positive,Low Risk,Non-Immediate,Food,New York JFK,London Heathrow,Unknown
+55,Positive,Low Risk,Non-Immediate,Good Service,Vancouver,UK,British Airways
+56,Negative,Low Risk,Non-Immediate,Cost Cutting,London Heathrow,Malaga,British Airways
+57,Negative,Low Risk,Non-Immediate,Poor Customer Service,N/A,N/A,British Airways
+58,Positive,Low Risk,Non-Immediate,Good Service,LHR,VCE,British Airways
+59,Negative,Low Risk,Non-Immediate,Poor Service,London,Buenos Aires,British Airways
+60,Positive,Low Risk,Non-Immediate,Good Service,Toronto,Entebbe,British Airways
+61,Answer: Positive,Low Risk,Non-Immediate,Flight Experience,Glasgow,Gatwick,British Airways
+62,Neutral,Low Risk,Non-Immediate,Flight Experience,Gatwick,Mauritius,British Airways
+63,Positive,Low Risk,Non-Immediate,Service Quality,London Heathrow Airport,Bologna Guglielmo Marconi Airport,British Airways
+64,Negative,Low Risk,Immediate,Food Quality,Johannesburg,London Heathrow,British Airways
+65,Negative,High Risk,Non-Immediate,Bad Service,FRA,LHR,A319
+66,Negative,High Risk,Non-Immediate,Bad Service,Orlando,London,British Airways
+67,Positive,Low Risk,Non-Immediate,Good Service,Helsinki,London,British Airways
+68,Positive,Low Risk,Non-Immediate,Good Service,Berlin Tegel,London Heathrow,British Airways
+69,Negative,Low Risk,Non-Immediate,Dirty Cabin,London Heathrow,Miami International,American Airlines
+70,Answer: Positive,Low Risk,Non-Immediate,Upgrade Experience,Heathrow,Rome,British Airways.
+71,Positive,Low Risk,Non-Immediate,In-flight Experience,N/A,N/A,British Airways
+72,Neutral,Low Risk,Non-Immediate,Baggage Policy,London,Doha,Unspecified
+73,Positive,Low Risk,Non-Immediate,Good Service,London,Keflavik,British Airways
+74,Negative,High Risk,Immediate,Bad Service,City x,City y,British Airways
+75,Negative,Medium Risk,Immediate,Flight Quality,London,Newcastle,British Airways
+76,Answer: Positive,Low Risk,Non-Immediate,Bad Catering,Heathrow Airport,Lyon Airport,Unnamed Carrier
+77,Pleasant,Low Risk,Non-Immediate,In-Flight Service,Unknown,Unknown,British Airways
+78,Positive,Low Risk,Non-Immediate,Good Service,Unknown,Heathrow,Unknown
+79,Negative,Low Risk,Non-Immediate,Uncomfortable Seats,Hong Kong,Hong Kong,A380
+80,Positive,Low Risk,Non-Immediate,Good Flight Experience,Gatwick,Antigua,British Airways
+81,Positive,Low Risk,Non-Immediate,Flight Quality,Madrid,London City,Embraer Aircraft
+82,Negative,Low Risk,Non-Immediate,Poor Service,London Gatwick (LGW),Colombo (CMB),British Airways (BA)
+83,Positive,Low Risk,Non-Immediate,Good Flight Experience,London Heathrow (LHR),Warsaw,Unknown
+84,Negative,Low Risk,Immediate,Food Quality,London,Orlando,American Airlines
+85,Positive,Low Risk,Non-Immediate,Good Service,Manchester,Billund,British Airways
+86,Negative,High Risk,Non-Immediate,Bad Service,MIA,LHR,British Airways
+87,Negative,High Risk,Immediate,Poor Service,Singapore,Newcastle,London Heathrow
+88,Positive,Low Risk,Non-Immediate,Product Quality,Heathrow,Las Vegas,British Airways
+89,Positive,Low Risk,Non-Immediate,Good Service,Amsterdam,London Heathrow,Boeing 767
+90,Positive,Low Risk,Non-Immediate,Good Service,Vienna International Airport,London Heathrow Airport,British Airways
+91,Positive,Low Risk,Non-Immediate,Good Service,Heathrow,Hong Kong,British Airways
+92,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Hong Kong,British Airways
+93,Answer: Negative,High Risk,Immediate,Poor Customer Care,Glasgow,London City,British Airways
+94,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Los Angeles,British Airways
+95,Negative,High Risk,Non-Immediate,Poor Service,Madrid,London,British Airways.
+96,Positive,Low Risk,Non-Immediate,Flight Experience,Athens,Kuala Lumpur,British Airways
+97,Negative,Low Risk,Non-Immediate,Seating Configuration,Gatwick Airport,Tenerife Airport,British Airways
+98,Negative,High Risk,Non-Immediate,Bad Customer Service,Toronto,Rome,British Airways
+99,Negative,Low Risk,Immediate,Poor Meal Quality,City x,City y,Air India
+100,Negative,High Risk,Immediate,Uncomfortable Experience,Austin,London,British Airways
+101,Negative,High Risk,Immediate,Boarding Pass Issues,Airport x,Airport y,Unnamed Airline
+102,Negative,Low Risk,Immediate,Appearance,London Heathrow,Las Vegas,British Airways
+103,,,,,,,
+104,Positive,Low Risk,Non-Immediate,Good Service,N/A,N/A,N/A
+105,Negative,High Risk,Non-Immediate,Misleading Information,Pisa,London Heathrow,British Airways
+106,Positive,Low Risk,Non-Immediate,Good Service,Hyderabad,San Francisco,British Airways
+107,Negative,Moderate Risk,Non-Immediate,Bad Service,LHR,Canada,British Airways
+108,Negative,High Risk,Immediate,Lost Baggage,Manchester,Bangkok,SAS Airlines
+109,Negative,Low Risk,Non-Immediate,Bad Service,Mumbai,Seattle,British Airways
+110,Negative,Low Risk,Non-Immediate,Poor Customer Service,Lisbon,London Heathrow,British Airways
+111,Negative,Moderate Risk,Immediate,Poor Quality,T3,FRA,British Airways
+112,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow Airport (LHR),Warsaw (WAW),A320
+113,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Houston,Avios
+114,Negative,Low Risk,Non-Immediate,Poor Food Quality,London,BKK,BA
+115,Positive,Low Risk,Non-Immediate,Good Service,London Gatwick,Bari,Unknown
+116,Negative,Low Risk,Non-Immediate,Food Service,London,Copenhagen,British Airways
+117,Negative,High Risk,Immediate,Poor Staff Management,OZ,Leeds,British Airways
+118,Negative,Low Risk,Non-Immediate,Poor Entertainment,Hong Kong,New York,British Airways
+119,Positive,Low Risk,Non-Immediate,Good Food and Service,Tampa,Gatwick,British Airways
+120,Negative,Low Risk,Non-Immediate,Poor Comfort,JFK,London,British Airways
+121,Negative,Medium Risk,Immediate,Delayed Baggage,Lanzarote,Gatwick,British Airways
+122,Positive,Low Risk,Non-Immediate,Good Service,Edinburgh,Kuala Lumpur,British Airways
+123,Negative,Low Risk,Immediate,Flight Delay,London,Budapest,British Airways
+124,Negative,Low Risk,Immediate,Poor Quality,Gatwick,Funchal,British Airways
+125,Negative,Low Risk,Non-Immediate,Poor Customer Service,No Flights Mentioned,No Flights Mentioned,British Airways
+126,Negative,Low Risk,Immediate,Refund Process,City x,City y,British Airways
+127,Positive,Low Risk,Non-Immediate,Customer Experience,London Heathrow,Dubai,British Airways
+128,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow (LHR),Cape Town (CPT),777 Aircraft
+129,Positive,Low Risk,Non-Immediate,Good Service,London (LHR),Larnaca (LCA),British Airways (BA)
+130,Neutral,Low Risk,Non-Immediate,Flight Experience,London Heathrow,Seattle,Redemption Ticket
+131,Negative,High Risk,Non-Immediate,Uncomfortable Flight Experience,Gatwick,Cancun,British Airways
+132,Negative,Low Risk,Immediate,Inedible Food,London Heathrow,Boston,British Airways
+133,Positive,Low Risk,Non-Immediate,Airport Transfer,Glasgow,Heathrow,British Airways
+134,Negative,Low Risk,Non-Immediate,Poor In-flight Service,London Heathrow,Hong Kong,British Airways
+135,Negative,High Risk,Immediate,Lost Luggage,London,Dublin,British Airways
+136,Positive,Low Risk,Non-Immediate,Good Service,Gatwick,Thessaloniki,British Airways
+137,Negative,Low Risk,Non-Immediate,Comfort,Inverness,Auckland,British Airways
+138,Negative,Low Risk,Immediate,Unfriendly Staff,Frankfurt,Buenos Aires,Unknown
+139,Negative,No Risk,Immediate,Lost Luggage,New York JFK,Dusseldorf,British Airways
+140,Positive,Low Risk,Non-Immediate,Comfortable Seats,London Heathrow Airport (LHR),Philadelphia International Airport (PHL),787 Dreamliner
+141,Negative,High Risk,Non-Immediate,Bad Seating Configuration,London Heathrow,Denver,British Airways
+142,Positive,Low Risk,Non-Immediate,Good Service,Amsterdam,Gatwick,British Airways
+143,Negative,Low Risk,Immediate,Poor Food,Johannesburg,London,Comair
+144,Negative,Low Risk,Non-Immediate,Poor Cabin Quality,London,Luanda,British Airways
+145,Neutral,Low Risk,Non-Immediate,Flight Delay,Heathrow T5,City y,British Airways
+146,Positive,High Risk,Immediate,Good Service,Stavanger,Las Vegas,British Airways
+147,Negative,Low Risk,Immediate,Overcrowded Lounge,London Heathrow,Zurich,British Airways
+148,Negative,Low Risk,Non-Immediate,Low Quality Service,London Heathrow,Larnaca,British Airways
+149,Negative,Low Risk,Non-Immediate,Old Equipment,Vancouver,London Heathrow,British Airways
+150,Answer: Positive,Low Risk,Non-Immediate,Flight Attendants,SFO,Denver,British Airways
+151,Negative,Low Risk,Immediate,Poor Quality,London Heathrow,Krakow,British Airways
+152,Negative,Low Risk,Non-Immediate,Difficult Website,N/A,N/A,British Airways
+153,Negative,Moderate Risk,Non-Immediate,Poor Cabin Design,City x,City y,British Airways
+154,,,,,,,
+155,Negative,Low Risk,Non-Immediate,Food Quality,Sydney Airport,London Airport,Carrier Unknown
+156,Negative,Low Risk,Non-Immediate,Food Quality,London,Kuala Lumpur,British Airways
+157,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow Airport (LHR),Washington Dulles International Airport (IAD),British Airways (BA)
+158,Negative,High Risk,Immediate,Poor Customer Service,St Vincent,Gatwick,BA
+159,Negative,Low Risk,Non-Immediate,Bad Food,N/A,N/A,N/A
+160,Negative,Medium Risk,Immediate,Inadequate Staff Response,London,Montreal,British Airways
+161,Negative,Low Risk,Non-Immediate,Seating,City x,City y,Air India
+162,Negative,Low Risk,Non-Immediate,Food Quality,Airport 3,Vienna,British Airways
+163,Negative,Moderate Risk,Immediate,Refund Policy,Heathrow Airport,Marseille Airport,British Airways
+164,Negative,Low Risk,Immediate,Refund Process,City a,City b,British Airways
+165,Negative,Low Risk,Immediate,Seat Assignment,Athens,London,British Airways
+166,Positive,Low Risk,Non-Immediate,Good Service,Toronto,New Delhi,British Airways
+167,Positive,Low Risk,Non-Immediate,Good Service,Glasgow,Prague,British Airways
+168,Negative,Low Risk,Non-Immediate,Bad Service,Edinburgh,London Gatwick,British Airways
+169,Negative,Low Risk,Non-Immediate,Poor Quality Food,City x,City y,British Airways
+170,Negative,High Risk,Non-Immediate,Poor Customer Service,Vancouver,London,British Airways
+171,Negative,High Risk,Non-Immediate,Customer Service,Los Angeles,London Heathrow,British Airways
+172,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Nairobi,British Airways
+173,Negative,Low Risk,Non-Immediate,Seat Comfort,Grenada,Gatwick,British Airways
+174,Negative,High Risk,Non-Immediate,Unsatisfactory Flight Experience,Singapore,London Heathrow,British Airways
+175,Negative,Low Risk,Immediate,Flight Delay,Helsinki,London,British Airways
+176,Negative,High Risk,Non-Immediate,Poor Customer Service,City x,City y,British Airways/American Airlines
+177,Neutral,Low Risk,Non-Immediate,Cabin Layout,LGW,CUN,British Airways
+178,Negative,Low Risk,Immediate,Poor Quality,Frankfurt,Hong Kong,British Airways
+179,Negative,Low Risk,Immediate,Entertainment System,Las Vegas,London Heathrow,British Airways
+180,Negative,Low Risk,Immediate,Poor Service,London Heathrow,Malaga,British Airways
+181,Negative,Low Risk,Non-Immediate,Bad Service,Heathrow,JFK,British Airways
+182,Positive,Low Risk,Non-Immediate,Good Service,Heathrow T5,Various,British Airways
+183,Negative,High Risk,Immediate,Unsatisfactory Service,Pisa,Genoa,British Airways
+184,Neutral,Low Risk,Non-Immediate,Service Quality,Washington,Prague,London
+185,Negative,Low Risk,Non-Immediate,Bad Service,Manchester,Heathrow,BMI Regional
+186,Positive,Low Risk,Non-Immediate,Good Service,Gatwick,Rome,Boeing 737
+187,Negative,Low Risk,Non-Immediate,Issues with Refunds,Glasgow,Paris,British Airways
+188,,,,,,,
+189,Negative,Low Risk,Immediate,Flight Delays,Venice,Gatwick,British Airways
+190,Negative,High Risk,Immediate,Poor Seating,London Heathrow,Hong Kong,British Airways
+191,Negative,Low Risk,Non-Immediate,Uncomfortable Seats,Gatwick,Mauritius,British Airways
+192,Negative,Low Risk,Immediate,Bad Service,London,Bangkok,British Airways
+193,Positive,Low Risk,Non-Immediate,Good Service,Funchal,London Gatwick,British Airways
+194,Negative,Low Risk,Non-Immediate,Dissatisfaction with Seating,City x,City y,British Airways
+195,Negative,Low Risk,Non-Immediate,Poor Catering,London,Boston,British Airways
+196,Negative,Low Risk,Immediate,Unhappy Customer,City x,City y,British Airways
+197,Negative,Low Risk,Non-Immediate,Seat Comfort,Aberdeen,Boston,London Heathrow.
+198,Negative,Moderate Risk,Non-Immediate,Bad Service,Zurich Airport,London City Airport,British Airways
+199,Negative,High Risk,Non-Immediate,Poor Customer Service,Dublin Airport (DUB),London City Airport (LCY),British Airways (BA)
+200,Neutral,Low Risk,Non-Immediate,Inflight Entertainment,London,Delhi,British Airways
+201,Negative,Low Risk,Non-Immediate,In-Flight Services,Athens,Philadelphia,British Airways
+202,Negative,Low Risk,Immediate,Cost,Las Vegas,London Heathrow,British Airlines
+203,Positive,Low Risk,Non-Immediate,Crew Interaction,London Heathrow,Bengaluru,Unspecified
+204,Answer: Positive,Low Risk,Non-Immediate,Flight Experience,Copenhagen,Mexico City,British Airways
+205,Positive,Low Risk,Non-Immediate,Aircraft Quality,London Heathrow Airport (LHR),Toronto Pearson International Airport (YYZ),British Airways (BA)
+206,Negative,Low Risk,Immediate,Pricing,Aberdeen,London Heathrow,British Airways
+207,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Budapest,British Airways
+208,Negative,High Risk,Immediate,Poor Customer Service,London,Singapore,Airline
+209,Negative,Low Risk,Non-Immediate,Poor Food Options,London,Cairo,Carrier Unknown
+210,Negative,Low Risk,Non-Immediate,Poor Food Quality,Gatwick,Mauritius,Unspecified Carrier
+211,Negative,Low Risk,Immediate,Poor Customer Support,Heathrow,Arlanda,British Airways
+212,Negative,Moderate Risk,Non-Immediate,Poor Quality,LA,London,British Airways
+213,Positive,Low Risk,Non-Immediate,Good Service,LPT,LHR,BA
+214,Positive,Low Risk,Non-Immediate,Good Service,Edinburgh,Gatwick,British Airways
+215,Negative,Medium Risk,Immediate,Poor Seat Assignment,Tampa Airport,Gatwick Airport,Carrier Unspecified
+216,Negative,Low Risk,Immediate,Poor Customer Care,Kiev,Belfast,British Airways
+217,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Edinburgh,British Airways
+218,Positive,Low Risk,Non-Immediate,Good Service,Gatwick,Barcelona,British Airways/Iberia
+219,Positive,Low Risk,Non-Immediate,Good Service,Newcastle,London Heathrow,British Airways
+220,Neutral,Low Risk,Non-Immediate,Bad Cleanliness,Frankfurt,London Heathrow,British Airways
+221,Neutral,Low Risk,Non-Immediate,Flight Experience,London Heathrow,Sofia,Unknown
+222,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow (LHR),Majorca (T5),British Airways (BA)
+223,Positive,Low Risk,Non-Immediate,Quality of Meal,London,Los Angeles,Geordie Steward
+224,Negative,Low Risk,Immediate,Poor Catering,Manchester,Gothenburg,British Airways
+225,Negative,Low Risk,Non-Immediate,Poor Staff Attitude,Heathrow,Italy,British Airways
+226,Positive,Low Risk,Non-Immediate,Good Service,Geneva Airport,London Gatwick Airport,British Airways
+227,Neutral,Low Risk,Non-Immediate,IFE Service,Berlin,Johannesburg,British Airways
+228,Positive,Low Risk,Non-Immediate,Good Service,Toronto Airport,London Heathrow,British Airways
+229,Negative,Low Risk,Non-Immediate,Poor VOD Choice,Bengaluru,London Heathrow,British Airways
+230,Positive,Low Risk,Non-Immediate,Aircraft Quality,London Gatwick,Fort Lauderdale,British Airways
+231,Positive,Low Risk,Non-Immediate,Good Service,Gatwick Airport,Gibraltar Airport,British Airways
+232,Negative,Low Risk,Non-Immediate,Poor Food and Service,London Heathrow,Cape Town,British Airways
+233,Negative,Low Risk,Immediate,Baggage Handling,London Heathrow,Miami,British Airways
+234,Negative,Low Risk,Non-Immediate,Poor Grooming,City x,City y,British Airways
+235,Negative,Low Risk,Non-Immediate,Poor Food Quality,City x,City y,British Airways
+236,Positive,Low Risk,Non-Immediate,Comfort of Seats,Hong Kong (HKG),London (LHR),British Airways (BA)
+237,Positive,Low Risk,Non-Immediate,Good Service,London,St Petersburgh,British Airways
+238,Positive,Low Risk,Non-Immediate,Cleanliness,London-Heathrow,Warsaw,British Airways
+239,Negative,Low Risk,Immediate,Poor Meal Service,Heathrow,San Francisco,British Airways
+240,Negative,High Risk,Non-Immediate,Poor Customer Service,Leeds,Heathrow,British Airways
+241,Negative,High Risk,Non-Immediate,Bad Service,Gatwick,Tenerife,British Airways
+242,Neutral,Low Risk,Non-Immediate,AVOD,Buenos Aires,London,British Airways
+243,Negative,Low Risk,Immediate,Seat Selection Fees,USA,Italy,American Airlines and British Airways
+244,Answer: Positive,Low Risk,Non-Immediate,Flight Experience,LHR,Boston,BA
+245,Neutral,Low Risk,Non-Immediate,In-Flight Service,London,Tenerife South,British Airways
+246,Negative,Low Risk,Non-Immediate,Lost Baggage,Los Angeles,Leeds Bradford,British Airways/American Airways
+247,Negative,Low Risk,Immediate,Bad Service,LAX,LHR,British Airways
+248,Negative,Low Risk,Immediate,Unsatisfactory Service,London,Philadelphia,British Airways
+249,Positive,Low Risk,Non-Immediate,Good Service,Los Angeles,London,British Airways
+250,Negative,Medium Risk,Immediate,Poor Comfort,Warsaw,London Heathrow,British Airways
+251,Positive,Low Risk,Non-Immediate,Food and Beverage,London Heathrow (LHR),San Francisco (SFO),British Airways (BA)
+252,Negative,High Risk,Immediate,Bad Service,Heraklion,Gatwick,British Airways
+253,Positive,Low Risk,Non-Immediate,Good Service,LHR,MAD,British Airways
+254,Positive,Low Risk,Non-Immediate,Comfort and Upgrade,London,Hong Kong,British Airways
+255,Neutral,Low Risk,Non-Immediate,Flight Experience,London Heathrow,Brussels,British Airways
+256,Negative,Low Risk,Non-Immediate,Poor Quality,Heathrow,Vancouver,British Airways
+257,Positive,Low Risk,Non-Immediate,Service Efficiency,LHR,LAX,British Airways
+258,Answer: Positive,Low Risk,Non-Immediate,Good Service,Airport x,Airport y,British Airways
+259,Negative,Medium Risk,Non-Immediate,Refund Process,London,Tel Aviv,British Airways
+260,Neutral,Low Risk,Non-Immediate,Boarding Process,London City Airport,London Heathrow Airport,Cyprus Airways
+261,Positive,Low Risk,Non-Immediate,Aircraft Conditions,ORT (City unspecified),City unspecified,British Airways
+262,Positive,Low Risk,Non-Immediate,Flight Experience,City x,City y,British Airways
+263,Negative,High Risk,Non-Immediate,Poor Inflight Service,Tampa,London Gatwick,British Airways
+264,Positive,Low Risk,Non-Immediate,Good Service,LHR,BSL,A319
+265,Positive,Low Risk,Non-Immediate,Good Service,London Gatwick (LGW),Pisa (Pisa),British Airways (BA)
+266,,,,,,,
+267,Negative,Low Risk,Non-Immediate,Poor Aircraft Conditions,City x,City y,Airline Unknown
+268,Negative,High Risk,Immediate,Lost Luggage,Vancouver,Lisbon,British Airways
+269,Negative,High Risk,Immediate,Food Quality,Bangkok,Heathrow,British Airways
+270,Negative,Low Risk,Non-Immediate,Price Comparison,Gatwick,Bordeaux,British Airways
+271,Positive,Low Risk,Non-Immediate,Good Service,Glasgow,Munich,British Airways
+272,Positive,Low Risk,Non-Immediate,Good Service,Budapest,Heathrow,British Airways
+273,Positive,Low Risk,Non-Immediate,Flight Experience,Austin,London,British Airways
+274,Negative,Low Risk,Immediate,Seat Configuration,City x,City y,British Airlines
+275,Positive,Low Risk,Non-Immediate,Good Service,Munich,London City,British Airways
+276,Negative,Low Risk,Non-Immediate,Poor Service,London,Johannesburg,Airline X
+277,Negative,Low Risk,Immediate,Unsatisfactory Meal,St Lucia,London,British Airways
+278,Negative,High Risk,Non-Immediate,Food Quality,Washington,Gibraltar,British Airways
+279,Negative,Low Risk,Non-Immediate,Poor Quality,New York,Cape Town,British Airways
+280,Negative,High Risk,Immediate,Bad Service,London Heathrow Airport,Vancouver International Airport,British Airways
+281,Negative,Low Risk,Immediate,Poor Service,Tampa,Gatwick,British Airways
+282,Negative,High Risk,Non-Immediate,Poor Quality,NYC,LHR,BA
+283,Positive,Low Risk,Non-Immediate,Good Service,Milan,London Heathrow,British Airways
+284,Positive,Low Risk,Non-Immediate,Good Service,Helsinki,Mumbai,British Airways
+285,Positive,Low Risk,Non-Immediate,Good Service,JFK,DXB,British Airways
+286,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow (LHR),Helsinki (HEL),Finnair/British Airways (BA)
+287,Negative,High Risk,Immediate,Lost Baggage,JFK,London Heathrow,British Airways
+288,Negative,High Risk,Non-Immediate,Poor Service,London Heathrow,Male,British Airways
+289,Negative,Moderate Risk,Non-Immediate,Quality of Service,Bangkok,London Heathrow,British Airways
+290,Negative,Low Risk,Non-Immediate,Unsatisfactory Food Quality,LAX,LHR,British Airways
+291,Neutral,Low Risk,Non-Immediate,Value for Money,London Heathrow,Washington Dulles,British Airways
+292,Positive,Low Risk,Non-Immediate,Good Service,Bridgetown,London Gatwick,Avios
+293,Negative,Low Risk,Non-Immediate,Bad Service,Athens,Heathrow,British Airways
+294,Negative,Low Risk,Immediate,Flight Delay,London,Nashville,British Airways
+295,Positive,Low Risk,Non-Immediate,Good Service,London,Milan,Unknown
+296,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Belfast George Best Airport,British Airways
+297,Negative,High Risk,Immediate,Bad Service,City x,City y,British Airways
+298,Negative,Low Risk,Immediate,Poor Quality,Heathrow T3,Vienna,British Airways
+299,Positive,Low Risk,Non-Immediate,Check-in Process,Zurich,London Heathrow,Unknown
+300,Positive,Low Risk,Non-Immediate,Good Service,San Diego,Manchester,British Airways
+301,Negative,High Risk,Non-Immediate,Unresolved Issues,Dallas,Lagos,British Airways
+302,Negative,Low Risk,Non-Immediate,Poor Service,N/A,N/A,British Airways
+303,Positive,Low Risk,Non-Immediate,Good Food,Kiev,London,Airbus 319
+304,Negative,Low Risk,Non-Immediate,Low Customer Perception,Berlin,London,British Airways
+305,Positive,Low Risk,Non-Immediate,Good Service,London Gatwick,Glasgow,British Airways
+306,Negative,Low Risk,Non-Immediate,Poor quality food,Bridgetown,Heathrow,British Airways
+307,Negative,Low Risk,Non-Immediate,Reservation Policy,London Heathrow,Hong Kong,British Airways
+308,Positive,Low Risk,Non-Immediate,Good Service,Kuala Lumpur,Mexico City,London Airlines.
+309,Negative,High Risk,Immediate,Poor Service,Milan,City y,Unknown
+310,Negative,High Risk,Immediate,Poor Facilities,Verona,Destination Airport,Carrier
+311,Negative,Low Risk,Non-Immediate,In-Flight Entertainment,SIN-LHR,BA12,B747-436.
+312,Answer: Positive,Low Risk,Non-Immediate,Bad Service,London Gatwick,Seville,British Airways
+313,Positive,Low Risk,Non-Immediate,Quality Service,Sydney,Singapore,British Airways
+314,Positive,Low Risk,Non-Immediate,Food Service,London Heathrow,Berlin Tegel,British Airways
+315,Negative,Low Risk,Non-Immediate,Poor Customer Experience,London Heathrow,Athens,British Airways
+316,Positive,Low Risk,Non-Immediate,Good Experience,LAX,ZHR,A380-800 (G-XLEA) and A320
+317,Negative,Low Risk,Non-Immediate,Bad Service,Vienna,London,British Airways
+318,Positive,Low Risk,Non-Immediate,Good Service,Brussels Airport,London Heathrow Airport,JFK.
+319,Negative,Low Risk,Immediate,Quality of Food,Heathrow,Barcelona,British Airways
+320,Negative,Low Risk,Immediate,Delayed Flight,San Diego,Stockholm,British Airways
+321,Indifferent,Low Risk,Non-Immediate,Service Quality,Philadelphia,Edinburgh,British Airways
+322,Negative,Low Risk,Non-Immediate,Food Quality,Gatwick,Orlando,British Airways
+323,Negative,Medium Risk,Immediate,Seating Arrangement,Bridgetown,Gatwick,British Airways
+324,Positive,Low Risk,Non-Immediate,Flight Experience,Heathrow,Athens,A321.
+325,Positive,Low Risk,Non-Immediate,Quality Service,London Heathrow Airport (LHR),San Diego International Airport (SAN),British Airways (BA)
+326,Positive,Low Risk,Non-Immediate,Good Service,Dublin,London Heathrow,British Airways.
+327,Negative,Low Risk,Immediate,Pricing,Malta,Gatwick,British Airways
+328,Negative,Low Risk,Non-Immediate,Poor Service,London,Seattle,British Airways
+329,Positive,Low Risk,Non-Immediate,Good Service,N/A,N/A,British Airways
+330,Positive,Low Risk,Non-Immediate,Good Service,London,Toronto,British Airways
+331,Negative,Low Risk,Non-Immediate,Unsatisfactory Experience,Edinburgh,Rome,British Airways
+332,Negative,Low Risk,Immediate,Refund Policy,City x,City y,JetBlue
+333,Negative,Low Risk,Immediate,Lost Baggage,City x,City y,British Airways
+334,,,,,,,
+335,Negative,High Risk,Non-Immediate,Bad Service,London Gatwick,Unknown,British Airways
+336,Positive,Low Risk,Non-Immediate,Good Service,T5,T5,Unknown
+337,Negative,Low Risk,Immediate,Bad Food,London Gatwick,Salzburg,British Airways
+338,Negative,Low Risk,Immediate,Crowded Seats,City x,City y,British Airways
+339,Negative,High Risk,Immediate,Poor Customer Service,London,Sydney,British Airways
+340,Negative,Low Risk,Non-Immediate,Cabin Comfort,Punta Cana,Gatwick,British Airways
+341,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Pisa,British Airways
+342,Positive,Low Risk,Non-Immediate,Service Quality,Zakinthos,London Heathrow,British Airways
+343,Negative,High Risk,Non-Immediate,Bad Service,Chengdu,London,British Airways
+344,Positive,Low Risk,Non-Immediate,Good Service,Source Airport N/A,Destination Airport N/A,British Airways
+345,Negative,Low Risk,Non-Immediate,Bad Service,San Francisco Airport,Milan Airport,British Airways
+346,Negative,Moderate Risk,Non-Immediate,Poor Service,Gatwick,Orlando,British Airways
+347,Positive,Low Risk,Non-Immediate,Quality of Service,Atlanta,London,British Airways
+348,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Toronto,British Airways
+349,Negative,Low Risk,Non-Immediate,Poor Comfort,London Heathrow,Miami,British Airways
+350,Negative,High Risk,Immediate,Bad Service,No Information,No Information,British Airways
+351,Negative,High Risk,Non-Immediate,Poor Customer Service,Orlando,London,British Airways.
+352,Neutral,Low Risk,Non-Immediate,Flight Experience,Manchester,London,British Airways
+353,Negative,Low Risk,Non-Immediate,Cleanliness,Milan,London Heathrow,British Airways
+354,Negative,Low Risk,Non-Immediate,Bad Service,London Heathrow,Kos,British Airways
+355,Negative,Low Risk,Non-Immediate,Bad Food,Philadelphia,London,British Airways
+356,Negative,High Risk,Immediate,Poor Service,Airport x,Airport y,British Airways
+357,Positive,Low Risk,Non-Immediate,Good Service,London,New Orleans,British Airways
+358,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow Airport (LHR),John F. Kennedy International Airport (JFK),British Airways (BA)
+359,Negative,High Risk,Immediate,Bad Service,Newcastle,San Francisco,British Airways
+360,Positive,Low Risk,Non-Immediate,Bad Service,Mumbai,Boston,British Airways
+361,Neutral,Low Risk,Non-Immediate,Flight Experience,New York,London,One World
+362,Positive,Low Risk,Non-Immediate,Good Food/Drinks,Gatwick,Barbados,British Airways
+363,Negative,Low Risk,Immediate,Cleanliness,Orlando,Gatwick,British Airways
+364,Positive,Low Risk,Non-Immediate,Good Service,London Gatwick,Valencia,British Airways
+365,Negative,Low Risk,Immediate,Lost Luggage,Singapore,Madrid,British Airways
+366,Negative,Low Risk,Non-Immediate,Bad Service,London Heathrow Airport,Newcastle Airport,British Airways
+367,Positive,Low Risk,Non-Immediate,Good Service,Manchester,New York JFK,British Airways
+368,Negative,Low Risk,Non-Immediate,Baggage Allowance,Glasgow,London Gatwick,British Airways
+369,Negative,Medium Risk,Immediate,Miscommunication,London Heathrow,Dallas Fort Worth,British Airways
+370,Positive,Low Risk,Non-Immediate,Good Service,Geneva,Unknown,British Airways
+371,Positive,Low Risk,Non-Immediate,Flight Experience,London Heathrow,Toronto,British Airways
+372,Positive,Low Risk,Non-Immediate,Good Service,N/A,N/A,British Airways
+373,Negative,Low Risk,Non-Immediate,Food Quality,ATL,LHR,British Airways
+374,Negative,Low Risk,Non-Immediate,Poor Seating,Airport A,Airport B,EasyJet
+375,Negative,High Risk,Immediate,Bad Service,Baltimore,Heathrow,British Airways
+376,Positive,Low Risk,Non-Immediate,Good Service,Prague,New York,British Airways
+377,Positive,Low Risk,Non-Immediate,Comfort/Seating,KUL,LHR,BA
+378,Negative,Low-Risk,Immediate,Seat Assignment,London Heathrow,New York,British Airways
+379,Positive,Low Risk,Non-Immediate,Good Service,Sydney,Lisbon,British Airways
+380,Negative,Low Risk,Immediate,Cost Saving,London Heathrow,Stockholm Arlanda,British Airways
+381,Negative,Moderate Risk,Immediate,Comfort,City x,City y,British Airways
+382,Negative,Low Risk,Immediate,Unfair Check-in Policy,London Heathrow,City y,British Airways
+383,Negative,High Risk,Immediate,Bad Service,Glasgow,Heathrow,British Airways
+384,Negative,Low Risk,Non-Immediate,Poor Service,London Heathrow,Singapore,British Airways
+385,Positive,Low Risk,Non-Immediate,Flight Experience,GOT (Gotham City Airport),LHR (London Heathrow Airport),BA (British Airways)
+386,Negative,High Risk,Immediate,Lost Luggage,London Heathrow,Milan Malpensa,British Airways
+387,Negative,High Risk,Non-Immediate,Poor Service Quality,Airport A,Airport B,British Airways
+388,Negative,Low Risk,Non-Immediate,Poor Customer Relations,London,Johannesburg,British Airways
+389,Negative,Low Risk,Non-Immediate,Cost Cutting,London,New York,British Airways
+390,Negative,Low Risk,Non-Immediate,Cutbacks in Economy,London Gatwick,Barbados,British Airways.
+391,Negative,High Risk,Immediate,Lost Baggage,Cancun,City x,British Airways
+392,Negative,High Risk,Immediate,Flight Delays,London,Edinburgh,British Airways
+393,Negative,Low Risk,Immediate,Lost Luggage,New York,Paris,British Airways
+394,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Cairo,British Airways
+395,Positive,Low Risk,Non-Immediate,Good Service,Gatwick,Salzburg,British Airways
+396,Answer: Positive,Low Risk,Non-Immediate,Airport Transfer,LAX,CPT,British Airways
+397,Negative,High Risk,Immediate,Poor Customer Service,Sweden,Los Angeles,British Airways
+398,Negative,Moderate Risk,Immediate,Food Quality,London,Vancouver,British Airways
+399,Neutral,Low Risk,Non-Immediate,Old Aircraft,N/A,N/A,British Airways
+400,Negative,Medium Risk,Immediate,Meal Service,City x,City y,Air India
+401,Answer: Negative,Low Risk,Non-Immediate,Poor Service,Source Airport Unspecified,Destination Airport Unspecified,British Airways
+402,Positive,Low Risk,Non-Immediate,Flight Quality,Gatwick,Punta Cana,British Airways
+403,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Miami,Unknown
+404,Negative,Low Risk,Non-Immediate,Poor Service,LCA (Larnaca International Airport),LGW (London Gatwick Airport),British Airways
+405,Negative,Low Risk,Immediate,Delays,Zurich,Heathrow,British Airways
+406,Negative,Medium Risk,Non-Immediate,Value for Money,Bangkok,London,British Airways
+407,Positive,Low Risk,Non-Immediate,Service Attention to Detail,N/A,N/A,British Airways
+408,Negative,High Risk,Immediate,Refund Issues,n/a,n/a,British Airways
+409,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow (LHR),Singapore Changi (SIN),British Airways (BA)
+410,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow Airport (LHR),Edinburgh Airport (EDI),British Airways (BA)
+411,Negative,Low Risk,Non-Immediate,Quality of Service,London Heathrow,Singapore Changi,British Airways
+412,Negative,Low Risk,Non-Immediate,Poor Service,London Heathrow,Hong Kong,British Airways
+413,Negative,Low Risk,Non-Immediate,Baggage Charges,Lisbon,Heathrow,British Airways
+414,Negative,Low Risk,Immediate,Baggage,London,Aberdeen,Unspecified
+415,Negative,High Risk,Immediate,Poor Customer Service,Dominican Republic,UK,British Airways
+416,Negative,Low Risk,Non-Immediate,Seats/Comfort,Heathrow,Bangkok,British Airways
+417,Positive,Low Risk,Non-Immediate,In-Flight Entertainment,Mexico City,Copenhagen,British Airways
+418,Negative,High Risk,Non-Immediate,Poor Lounge Facilities,Gatwick,Marrakech,British Airways
+419,Neutral,Low Risk,Non-Immediate,Airport Services,London Heathrow,Stuttgart,Unspecified
+420,Neutral,Low Risk,Non-Immediate,In-Flight Experience,Johannesburg,London,British Airways
+421,Negative,High Risk,Immediate,Flight Delays,Glasgow,Lisbon,British Airways
+422,Negative,High Risk,Non-Immediate,Uncomfortable Seating,London,Bangkok,British Airways
+423,Positive,Low Risk,Non-Immediate,Seat Reservation Fees,Gatwick,Grenada,British Airways
+424,Negative,Low Risk,Immediate,Lost Luggage,Miami,Manchester,British Airways
+425,Negative,Low Risk,Immediate,Inadequate Food,Gatwick,Bridgetown,British Airways
+426,Negative,Low Risk,Immediate,Poor Food,Bermuda,Gatwick,British Airways
+427,Negative,Low Risk,Immediate,Cost Cutting,Heathrow,Vienna,British Airways
+428,Negative,Low Risk,Non-Immediate,Poor Service,Istanbul,London Heathrow,British Airways
+429,Positive,Low Risk,Non-Immediate,Aircraft Refurbishment,City x,City y,British Airways
+430,,,,,,,
+431,Negative,Low Risk,Immediate,Queue Management,Milan Malpensa,London Heathrow,British Airways
+432,Positive,Low Risk,Non-Immediate,Baggage Handling,Mumbai,Nassau,British Airways
+433,Negative,Low Risk,Non-Immediate,Bad Service,London Heathrow,Barcelona,Unknown Carrier
+434,Negative,Low Risk,Immediate,Uncomfortable Seats,British Airways,Pisa,British Airways
+435,Negative,Low Risk,Non-Immediate,Poor Quality Food,SYD,SFO,United
+436,Negative,High Risk,Non-Immediate,Poor Service,Airport x,Airport y,British Airways
+437,Negative,Low Risk,Immediate,Bad Service,Dublin,London City,British Airways
+438,Negative,High Risk,Immediate,Bad Service,Frankfurt,London City Airport,Unknown
+439,Negative,Low Risk,Immediate,Poor Management,Corfu,London Heathrow,British Airways
+440,Positive,Low Risk,Non-Immediate,Flight Experience,No Source,No Destination,No Carrier
+441,Negative,Low Risk,Non-Immediate,Poor Follow-up,London Gatwick,Amsterdam,British Airways
+442,Negative,High Risk,Immediate,Poor Quality,Singapore,Sydney,British Airways
+443,Negative,Low Risk,Immediate,Uncomfortable Seating,Madrid Airport,Heathrow Airport,British Airways
+444,Negative,High Risk,Immediate,Delayed Luggage,London Heathrow,Montreal,British Airways
+445,Negative,High Risk,Immediate,Poor Customer Service,London,Cape Town,British Airways
+446,Negative,Low Risk,Immediate,Lost Baggage,Dublin,London,British Airways
+447,Positive,Low Risk,Non-Immediate,Good Service,Mumbai,London Heathrow,Unknown
+448,Positive,Low Risk,Non-Immediate,Outstanding Service,London Heathrow,Singapore,British Airways
+449,Negative,Low Risk,Non-Immediate,Tired Seating,London Heathrow,Bucharest,British Airways
+450,Neutral,Low Risk,Non-Immediate,Comfort,Athens,London Heathrow,British Airways
+451,Negative,Low Risk,Immediate,Food Quality,Nairobi,London,British Airways
+452,Negative,Low Risk,Non-Immediate,Bad Service,Airport x,Airport y,TAP
+453,Negative,High Risk,Non-Immediate,Poor Facilities,LHR,JTR,BA
+454,Answer: Negative,Low Risk,Non-Immediate,Bad Service,Naples,Gatwick,British Airways
+455,Negative,Low Risk,Non-Immediate,Poor Quality,JNB,ATH,British Airways
+456,Positive,Low Risk,Non-Immediate,Good Service,Copenhagen,Amsterdam,British Airways
+457,Positive,Low Risk,Non-Immediate,Good Service,South Airport (Tenerife),N/A,Iberia
+458,Negative,High Risk,Non-Immediate,Bad Customer Service,London,Seattle,British Airways
+459,Answer: Positive,Low Risk,Non-Immediate,Comfort,BRU,YYZ,British Airways
+460,Positive,Low Risk,Non-Immediate,Good Service,London Heathrow,Washington Dulles,British Airways
+461,Negative,Low Risk,Immediate,Food Quality,Cape Town,London,Unknown
+462,Negative,Low Risk,Non-Immediate,Food Quality,Vancouver,London,British Airways
+463,Negative,Low Risk,Immediate,Flight Cancellation,London,Gibraltar,British Airways
+464,Positive,Low Risk,Non-Immediate,Good Service,Brisbane,London Heathrow,British Airways
+465,Negative,Low Risk,Non-Immediate,Customer Service,London Heathrow,Budapest,British Airways
+466,Positive,Low Risk,Non-Immediate,Business Class,Doha,Paris,British Airways
+467,Positive,Low Risk,Non-Immediate,Good Service,T5,A Gates,British Airways
+468,Positive,Low Risk,Non-Immediate,Good Service,Chicago,Amsterdam,British Airways
+469,Positive,Low Risk,Non-Immediate,Good Service,London Gatwick,Tampa,British Airways
+470,Positive,Low Risk,Non-Immediate,Good Service,N/A,N/A,N/A
+471,Positive,Low Risk,Non-Immediate,Entertainment,Airport x,Airport y,British Airways
+472,Neutral,Low Risk,Non-Immediate,Cabin Seating,N/A,N/A,British Airways
+473,Positive,Low Risk,Non-Immediate,Good Service,Not Applicable,Not Applicable,Not Applicable
+474,Negative,Moderate Risk,Immediate,Bad Food,Chicago,London Heathrow,British Airways
+475,Positive,Low Risk,Non-Immediate,Good Food,London Heathrow,Hong Kong International,Cathay Pacific
+476,Positive,Low Risk,Non-Immediate,Good Service,Heathrow,Newark,787 Aircraft
+477,Neutral,Low Risk,Non-Immediate,In-Flight Entertainment,LHR,BKK,BA
+478,Negative,Low Risk,Immediate,Food Quality,Athens,London,British Airways
+479,,,,,,,
+480,Positive,Low Risk,Non-Immediate,Good Service,London,Rio de Janeiro,British Airways
+481,Negative,Low Risk,Non-Immediate,Food Quality,Sao Paulo,Heathrow,British Airways.
+482,Negative,High Risk,Non-Immediate,Misrepresentation,London Heathrow,Las Vegas,Unknown
+483,Negative,Low Risk,Immediate,Charging for Water,London Heathrow,Prague,British Airways
+484,Negative,Low Risk,Non-Immediate,Poor Quality Aircraft,London Heathrow,Cape Town,British Airways
+485,Positive,Low Risk,Non-Immediate,Catering,London Airport,Chicago Airport,British Airways
+486,Positive,Low Risk,Non-Immediate,Good Service,London Gatwick (LGW),Paphos,British Airways (BA)
+487,Negative,Low Risk,Non-Immediate,Poor Cleanliness,London,Cape Town,British Airways
+488,Negative,Low Risk,Non-Immediate,Poor Service,Hamburg,Abu Dhabi,British Airways
+489,Negative,Low Risk,Immediate,Inconvenient Boarding,T5,T3,Air India
+490,Negative,Low Risk,Immediate,Food Quality,Heathrow,Dreamliner,British Airways
+491,Negative,High Risk,Immediate,Lost Luggage,City x,City y,British Airways
+492,Positive,Low Risk,Non-Immediate,Good Service,Newcastle,Geneva,British Airways
+493,Negative,High Risk,Non-Immediate,Bad Service,San Francisco,Johannesburg,British Airways
+494,Negative,High Risk,Immediate,Bad Service,London Heathrow,Innsbruck,British Airways
+495,Negative,Low Risk,Immediate,Poor Aircraft Condition,London,New York JFK,Brussels Airlines
+496,Positive,Low Risk,Non-Immediate,Good Service,Manchester,Heathrow,Unknown
+497,Positive,Low Risk,Non-Immediate,Good Service,Zurich,London Heathrow,British Airways
+498,Negative,Low Risk,Non-Immediate,Flight Quality,Pisa,Chicago,American Airlines
+499,Negative,Low Risk,Non-Immediate,Bad Food,London Gatwick (LGW),Lanzarote (ACE),British Airways
