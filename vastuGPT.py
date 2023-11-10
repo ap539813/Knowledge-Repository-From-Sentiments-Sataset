@@ -5,10 +5,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 from langchain import PromptTemplate, LLMChain
 
-# from sentence_transformers import SentenceTransformer
-
-# from sklearn.neighbors import NearestNeighbors
-
+import requests
 
 from docx import Document
 
@@ -65,45 +62,19 @@ def clean_text(text):
 
 vastu_text = clean_text(vastu_text)
 
-# def chunk_by_sentence(text, max_chunk_length=200):
-#     paragraphs = text.split(".")  # Assuming sentences are separated by full stop.
-#     chunks = []
-
-#     for paragraph in paragraphs:
-#         if len(paragraph) <= max_chunk_length:
-#             chunks.append(paragraph)
-#         else:
-#             # For long sentences, further split them into smaller chunks
-#             words = paragraph.split()
-#             for i in range(0, len(words), max_chunk_length):
-#                 chunk = " ".join(words[i:i+max_chunk_length])
-#                 chunks.append(chunk)
-                
-#     return chunks
-
-
-
-# def query_rag(question, model, vector_store, document_chunks):
-#     question_embedding = model.encode([question])
-#     _, indices = vector_store.kneighbors(question_embedding)
-#     return document_chunks[indices[0][0]]
-
-
 
 
 if not 'responses' in st.session_state:
     st.session_state['responses'] = {}
-    # st.session_state['document_chunks'] = chunk_by_sentence(vastu_text)
 
-    # st.session_state['model'] = SentenceTransformer('all-MiniLM-L6-v2')
-    # st.session_state['embeddings'] = st.session_state['model'].encode(st.session_state['document_chunks'])
-
-    # st.session_state['vector_store'] = NearestNeighbors(n_neighbors=1, algorithm='ball_tree')
-    # st.session_state['vector_store'].fit(st.session_state['embeddings'])
 
 def main():
     for question_i, answer_i in st.session_state['responses'].items():
-        st.expander(question_i).markdown(answer_i)
+        col11, col12 = st.expander(question_i).columns([1, 1])
+        col11.markdown('### Response from OpenAI API')
+        col12.markdown('### Response from RAG')
+        col11.markdown(answer_i[0])
+        col12.markdown(answer_i[1])
 
     question_input = st.text_input("Ask your question: ")
     answer_button = st.button('Ask to VastuGPT')
@@ -130,21 +101,37 @@ def main():
         question = "What does Vastu say about kitchen placement direction answer in short"
 
         llm_chain = LLMChain(prompt=prompt_repo, llm=llm)
-        answer = llm_chain.run(
-            conversation_history = vastu_text,
-            question = question_input,
-        )
+        # answer = llm_chain.run(
+        #     conversation_history = vastu_text,
+        #     question = question_input,
+        # )
+        answer = "temprorary placeholder"
 
         # answer_rag = query_rag("What does Vastu say about kitchen placement?", st.session_state['model'], st.session_state['vector_store'], st.session_state['document_chunks'])
 
-        st.session_state['responses'][question_input] = answer
-        # col1, col2 = st.columns([1, 1])
+        url = 'http://127.0.0.1:5000/'
+        rag_endpoint = 'rag'
+        score_endpoint = 'bart_score'
+        data = {'question': question_input}
 
-        # col1.markdown('### Response from OpenAI API')
-        # col2.markdown('### Response from RAG')
+        answer_rag = requests.post(url + rag_endpoint, json=data).json()['answer_rag']
 
-        st.markdown(answer)
-        # col2.markdown(answer_rag)
+        st.session_state['responses'][question_input] = [answer, answer_rag]
+        col1, col2 = st.columns([1, 1])
+
+        col1.markdown('### Response from OpenAI API')
+        col2.markdown('### Response from RAG')
+
+        col1.markdown(answer)
+        col2.markdown(answer_rag)
+
+        data = {'answer_rag': answer_rag, 'answer_openai': answer}
+
+        
+        bart_score = requests.post(url + score_endpoint, json=data).json()
+
+        st.markdown('#### Comparison Score')
+        st.markdown(bart_score)
 
     
 
