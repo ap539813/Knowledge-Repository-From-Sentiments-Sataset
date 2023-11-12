@@ -81,7 +81,7 @@ def bart_score():
         return jsonify({'error': 'No question provided'}), 400
     P, R, F1 = compare_responses(data['answer_openai'], data['answer_rag'])
 
-    return jsonify({'P': P, 'R': R, 'F1':F1})
+    return jsonify({'Precision': P.numpy().tolist(), 'Recall': R.numpy().tolist(), 'F1 score':F1.numpy().tolist()})
 
 if __name__ == '__main__':
     app.run(debug=True)
