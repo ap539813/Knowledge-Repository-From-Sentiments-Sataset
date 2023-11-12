@@ -101,11 +101,10 @@ def main():
         question = "What does Vastu say about kitchen placement direction answer in short"
 
         llm_chain = LLMChain(prompt=prompt_repo, llm=llm)
-        # answer = llm_chain.run(
-        #     conversation_history = vastu_text,
-        #     question = question_input,
-        # )
-        answer = "temprorary placeholder"
+        answer = llm_chain.run(
+            conversation_history = vastu_text,
+            question = question_input,
+        )
 
         # answer_rag = query_rag("What does Vastu say about kitchen placement?", st.session_state['model'], st.session_state['vector_store'], st.session_state['document_chunks'])
 
@@ -131,7 +130,7 @@ def main():
         bart_score = requests.post(url + score_endpoint, json=data).json()
 
         st.markdown('#### Comparison Score')
-        st.markdown(bart_score)
+        st.write(bart_score)
 
     
 
