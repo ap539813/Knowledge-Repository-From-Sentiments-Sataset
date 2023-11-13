@@ -96,7 +96,7 @@ def rag_response():
     if answer_type == 'Long':
         document_chunks = chunk_by_paragraph(vastu_text)
     else:
-        document_chunks = chunk_by_sentence
+        document_chunks = chunk_by_sentence(vastu_text)
     answer_rag = query_rag(question, model, vector_store, document_chunks)
 
     return jsonify({'answer_rag': answer_rag})
