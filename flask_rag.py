@@ -27,6 +27,28 @@ def chunk_by_sentence(text, max_chunk_length=200):
                 
     return chunks
 
+def chunk_by_paragraph(text, max_chunk_length=200):
+    paragraphs = text.split("\n") 
+    chunks = []
+
+    for paragraph in paragraphs:
+        if len(paragraph) <= max_chunk_length:
+            chunks.append(paragraph)
+        else:
+            # For long paragraphs, further split them into smaller chunks
+            words = paragraph.split()
+            temp_chunk = ""
+            for word in words:
+                if len(temp_chunk) + len(word) + 1 <= max_chunk_length:
+                    temp_chunk += " " + word
+                else:
+                    chunks.append(temp_chunk.strip())
+                    temp_chunk = word
+            if temp_chunk:
+                chunks.append(temp_chunk.strip())
+                
+    return chunks
+
 def extract_text_from_docx(docx_path):
     doc = Document(docx_path)
     full_text = []
@@ -70,6 +92,11 @@ def rag_response():
     if not data or 'question' not in data:
         return jsonify({'error': 'No question provided'}), 400
     question = data['question']
+    answer_type = data['answer_type']
+    if answer_type == 'Long':
+        document_chunks = chunk_by_paragraph(vastu_text)
+    else:
+        document_chunks = chunk_by_sentence
     answer_rag = query_rag(question, model, vector_store, document_chunks)
 
     return jsonify({'answer_rag': answer_rag})

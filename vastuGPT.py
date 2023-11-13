@@ -69,6 +69,7 @@ if not 'responses' in st.session_state:
 
 
 def main():
+
     for question_i, answer_i in st.session_state['responses'].items():
         col11, col12 = st.expander(question_i).columns([1, 1])
         col11.markdown('### Response from OpenAI API')
@@ -76,7 +77,12 @@ def main():
         col11.markdown(answer_i[0])
         col12.markdown(answer_i[1])
 
+    
+
     question_input = st.text_input("Ask your question: ")
+    setting_cols = st.columns([1, 1, 1])
+    tmperature = setting_cols[0].number_input("Choose temperature of the model: ")
+    answer_type = setting_cols[1].selectbox('Choose Answer type: ', ["Long", "Short"])
     answer_button = st.button('Ask to VastuGPT')
 
     if answer_button:
@@ -111,7 +117,7 @@ def main():
         url = 'http://127.0.0.1:5000/'
         rag_endpoint = 'rag'
         score_endpoint = 'bart_score'
-        data = {'question': question_input}
+        data = {'question': question_input, 'answer_type': answer_type}
 
         answer_rag = requests.post(url + rag_endpoint, json=data).json()['answer_rag']
 
