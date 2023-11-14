@@ -87,7 +87,7 @@ def main():
 
     if answer_button:
         llm = st.session_state['GPT']
-        template_for_code = """
+        template_for_baseline = """
             Answer question from Vastu Shashtra document:
 
 
@@ -97,12 +97,13 @@ def main():
             Instructions:
                 1. Be very specific to the document I have in conversation history
                 2. Do not refer to anything else external from the source
+                3. Answer should be {answer_type} answer type
 
             Answer:
             """
         prompt_repo = PromptTemplate(
-            template = template_for_code,
-            input_variables=['question']
+            template = template_for_baseline,
+            input_variables=['question', 'answer_type'],
         )
         question = "What does Vastu say about kitchen placement direction answer in short"
 
@@ -110,6 +111,7 @@ def main():
         answer = llm_chain.run(
             conversation_history = vastu_text,
             question = question_input,
+            answer_type = answer_type
         )
 
         # answer_rag = query_rag("What does Vastu say about kitchen placement?", st.session_state['model'], st.session_state['vector_store'], st.session_state['document_chunks'])
@@ -121,16 +123,42 @@ def main():
 
         answer_rag = requests.post(url + rag_endpoint, json=data).json()['answer_rag']
 
-        st.session_state['responses'][question_input] = [answer, answer_rag]
+        template_for_rag_llm = """
+            Answer question from Vastu Shashtra document:
+
+
+            Question:
+                {question}
+
+            Instructions:
+                1. Be very specific to the text I have in conversation history
+                2. Do not refer to anything else external from the source
+                3. Answer should be {answer_type} answer type
+
+            Answer:
+            """
+        prompt_repo = PromptTemplate(
+            template = template_for_rag_llm,
+            input_variables=['question', 'answer_type']
+        )
+
+        llm_chain = LLMChain(prompt=prompt_repo, llm=llm)
+        answer_rag_llm = llm_chain.run(
+            conversation_history = answer_rag,
+            question = question_input,
+            answer_type = answer_type
+        )
+
+        st.session_state['responses'][question_input] = [answer, answer_rag_llm]
         col1, col2 = st.columns([1, 1])
 
         col1.markdown('### Response from OpenAI API')
         col2.markdown('### Response from RAG')
 
         col1.markdown(answer)
-        col2.markdown(answer_rag)
+        col2.markdown(answer_rag_llm)
 
-        data = {'answer_rag': answer_rag, 'answer_openai': answer}
+        data = {'answer_rag': answer_rag_llm, 'answer_openai': answer}
 
         
         bart_score = requests.post(url + score_endpoint, json=data).json()
